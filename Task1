@@ -1,4 +1,5 @@
- image_id        = "ami-ebd02392"
+ #Creating Instance
+  image_id        = "ami-ebd02392"
   instance_type   = "t2.micro"
   security_groups = ["sg-12345678"]
 
