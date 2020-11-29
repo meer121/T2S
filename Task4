@@ -1,8 +1,10 @@
+#Provider details
 provider "github" {
   token = "${var.github_token}"
   owner = "${var.github_owner}"
 }
 
+#Resource path description
 resource "github_repository" "https://github.com/meer121/T2S" {
   name        = "Meer"
   description = "Welcome to my repository"
